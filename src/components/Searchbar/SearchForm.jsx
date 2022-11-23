@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { Form } from '../Styles/Element.styled';
+import { Form } from './../Styles/Element.styled';
 
 const SearchForm = ({ onSubmit, children }) => (
   <Form onSubmit={onSubmit}>{children}</Form>

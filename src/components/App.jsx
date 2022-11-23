@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Box } from 'components/Styles/Element.styled';
-import { SearchBar } from './SearchBar/Searchbar';
+import { SearchBar } from './SearchBar/SearchBar';
 import { Loader } from './Loader/Loader';
 import ButtonLoadMore from './Button/Button';
 import { ImageGallery } from './ImageGallery/ImageGallery';
