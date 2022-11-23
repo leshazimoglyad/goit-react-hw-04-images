@@ -29,7 +29,6 @@ export const Modal = ({ largeImageUrl, tags, closeModal }) => {
     </Overlay>
   );
 };
-
 Modal.propTypes = {
   closeModal: PropTypes.func.isRequired,
   largeImageUrl: PropTypes.string.isRequired,
